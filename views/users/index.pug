@@ -1,8 +1,19 @@
-h1 User
-a(href="/users/create") Create user
-form(action="/users/search" method="GET")
-  input(type="text" name="q")
-  button Search
-ul
-  each val, index in users
-    li= index + ': ' + val.name
+extends ../layouts/layout.pug
+
+block content 
+  a(href="/users/create") Create user
+  form(action="/users/search" method="GET")
+    input(type="text" name="q")
+    button Search
+  table.table 
+    tr 
+      th Name 
+      th Phone
+      th Action
+    each user in users
+      tr 
+        td= user.name
+        td= user.phone
+        td
+          a(href=`/users/` + user.id) View
+
