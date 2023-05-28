@@ -8,12 +8,12 @@ block content
   table.table 
     tr 
       th Name 
-      th Phone
-      th Action
+      th Email
+      th Password
     each user in users
       tr 
-        td= user.name
-        td= user.phone
+        td= user.email
+        td= user.password
         td
           a(href=`/users/` + user.id) View
 

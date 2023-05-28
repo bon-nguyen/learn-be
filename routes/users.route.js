@@ -4,15 +4,21 @@ const db = require("../db");
 const routes = express.Router();
 const usersController = require("../controllers/users.controller");
 const usersValidate = require("../validates/user.validate");
-routes.get("/cookie", function (req, res) {
-  res.cookie("user-id", 123);
-  res.send("hello");
-});
+
+// middleware
+// const authMiddleware = require("../middleware/auth.middleware");
+const authMiddleware = require("../middleware/auth.middleware");
+
 console.log("db", db);
-routes.get("/", usersController.index);
-routes.get("/search", usersController.search);
-routes.get("/create", usersController.viewCreate);
-routes.get("/:id", usersController.viewDetails);
-routes.post("/create", usersValidate.checkCreate, usersController.create);
+routes.get("/", authMiddleware.requireAuth, usersController.index);
+routes.get("/search", authMiddleware.requireAuth, usersController.search);
+routes.get("/create", authMiddleware.requireAuth, usersController.viewCreate);
+routes.get("/:id", authMiddleware.requireAuth, usersController.viewDetails);
+routes.post(
+  "/create",
+  authMiddleware.requireAuth,
+  usersValidate.checkCreate,
+  usersController.create
+);
 
 module.exports = routes;

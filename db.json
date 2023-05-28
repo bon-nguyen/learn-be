@@ -1,24 +1,24 @@
 {
   "users": [
     {
-      "id": "GfhD3TOQP",
-      "name": "bon",
-      "phone": "123123"
-    },
-    {
       "id": "ON4g4vKhT",
-      "name": "bon",
-      "phone": "test"
+      "email": "bon@gmail.com",
+      "password": "123456"
     },
     {
-      "id": "BLvpOlkRW",
-      "name": "bon",
-      "phone": "123123123"
+      "id": "LaVaComFP",
+      "email": "tran@gmail.com",
+      "password": "4297f44b13955235245b2497399d7a93"
     },
     {
-      "id": "HnjmcZ07H",
-      "name": "test pon beo",
-      "phone": "167655"
+      "id": "_mVTg4sA0",
+      "email": "tranbon@gmail.com",
+      "password": "202cb962ac59075b964b07152d234b70"
+    },
+    {
+      "id": "l0ewNQWXJ",
+      "email": "bon1@gmail.com",
+      "password": "81dc9bdb52d04dc20036dbd8313ed055"
     }
   ]
 }

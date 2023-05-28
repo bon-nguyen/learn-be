@@ -1,7 +1,7 @@
+const md5 = require("md5");
 const shortid = require("shortid");
 
 module.exports.index = function (req, res) {
-  console.log("res === cookes", req.cookies);
   res.render("users/index", {
     users: db.get("users").value(),
   });
@@ -23,10 +23,10 @@ module.exports.search = function (req, res) {
 
 module.exports.create = function (req, res) {
   const errors = [];
-  if (!req.body.name) {
+  if (!req.body.email) {
     errors.push("Name is required");
   }
-  if (!req.body.phone) {
+  if (!req.body.password) {
     errors.push("Phone is required");
   }
   if (errors?.length > 0) {
@@ -35,8 +35,13 @@ module.exports.create = function (req, res) {
     });
   }
 
+  const payload = {
+    email: req.body.email,
+    password: md5(req.body.password),
+  };
+
   db.get("users")
-    .push({ id: shortid.generate(), ...req.body })
+    .push({ id: shortid.generate(), ...payload })
     .write();
   res.redirect("/users");
 };
@@ -52,5 +57,3 @@ module.exports.viewDetails = function (req, res) {
     user: user,
   });
 };
-
-module.e;
