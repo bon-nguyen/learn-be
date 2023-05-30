@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config();
+console.log(process.env);
 const express = require("express");
 const bodyParser = require("body-parser");
 const userRoutes = require("./routes/users.route");
@@ -8,7 +11,7 @@ const cookieParser = require("cookie-parser");
 
 app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-app.use(cookieParser("197"));
+app.use(cookieParser(process.env.SECTION_SECRET));
 app.set("view engine", "pug");
 app.set("views", "./views");
 
