@@ -5,6 +5,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const userRoutes = require("./routes/users.route");
 const loginRoutes = require("./routes/auth.route");
+const productRoutes = require("./routes/products.route");
 
 const app = express();
 const cookieParser = require("cookie-parser");
@@ -16,6 +17,7 @@ app.set("view engine", "pug");
 app.set("views", "./views");
 
 app.use(express.static("public"));
+app.use("/products", productRoutes);
 app.use("/users", userRoutes);
 app.use("/auth", loginRoutes);
 
