@@ -1,4 +1,6 @@
 const express = require("express");
+const multer = require("multer");
+const upload = multer({ dest: "./public/upload/" });
 
 const db = require("../db");
 const routes = express.Router();
@@ -16,6 +18,7 @@ routes.get("/create", authMiddleware.requireAuth, usersController.viewCreate);
 routes.get("/:id", authMiddleware.requireAuth, usersController.viewDetails);
 routes.post(
   "/create",
+  upload.single("avatar"),
   authMiddleware.requireAuth,
   usersValidate.checkCreate,
   usersController.create

@@ -7,11 +7,14 @@ block content
     button Search
   table.table 
     tr 
+      th Avatar
       th Name 
       th Email
       th Password
     each user in users
       tr 
+        td
+          img.card-img-top(src=user.image, alt='Card image cap' width="32")
         td= user.email
         td= user.password
         td

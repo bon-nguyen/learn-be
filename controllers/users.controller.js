@@ -29,15 +29,18 @@ module.exports.create = function (req, res) {
   if (!req.body.password) {
     errors.push("Phone is required");
   }
+
   if (errors?.length > 0) {
     return res.render("users/create", {
       errors: errors,
     });
   }
+  const image = req.file.path.split("/").slice(1).join("/") ?? "";
 
   const payload = {
     email: req.body.email,
     password: md5(req.body.password),
+    image: image,
   };
 
   db.get("users")
