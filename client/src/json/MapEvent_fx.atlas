@@ -1,0 +1,294 @@
+MapEvent_fx.png
+	size: 1002, 1014
+	filter: Linear, Linear
+	pma: true
+Flare01
+	bounds: 2, 453, 743, 559
+	offsets: 11, 10, 765, 579
+Ice_3
+	bounds: 747, 482, 74, 90
+Ice_4
+	bounds: 825, 2, 160, 65
+color_filter
+	bounds: 2, 13, 440, 438
+	offsets: 33, 37, 508, 510
+iconMap
+	bounds: 444, 32, 419, 379
+	rotate: 90
+line
+	bounds: 954, 69, 943, 46
+	offsets: 7, 3, 955, 53
+	rotate: 90
+lineG
+	bounds: 810, 599, 11, 413
+	offsets: 0, 1, 11, 415
+particle
+	bounds: 747, 456, 24, 24
+	offsets: 1, 1, 26, 26
+textbox_color01
+	bounds: 747, 574, 438, 61
+	rotate: 90
+textbox_dark
+	bounds: 825, 81, 931, 127
+	rotate: 90
+
+MapEvent_fx_2.png
+	size: 1000, 1018
+	filter: Linear, Linear
+	pma: true
+Chest/01
+	bounds: 174, 663, 170, 146
+	offsets: 12, 38, 223, 320
+Chest/02
+	bounds: 2, 665, 170, 144
+	offsets: 9, 39, 223, 320
+Chest/03
+	bounds: 346, 626, 171, 146
+	offsets: 14, 38, 223, 320
+Chest/04
+	bounds: 645, 504, 171, 150
+	offsets: 11, 32, 223, 320
+Chest/05
+	bounds: 2, 369, 172, 161
+	offsets: 8, 9, 223, 320
+Chest/06
+	bounds: 818, 503, 180, 151
+	offsets: 10, 93, 223, 320
+Ice_1
+	bounds: 496, 926, 77, 90
+Ice_2
+	bounds: 694, 924, 92, 90
+	rotate: 90
+Ice_5
+	bounds: 875, 821, 109, 90
+Ice_6
+	bounds: 875, 913, 103, 90
+	rotate: 90
+Ice_7
+	bounds: 44, 960, 56, 55
+	rotate: 90
+Ice_8
+	bounds: 418, 932, 84, 76
+	rotate: 90
+RLight
+	bounds: 2, 210, 79, 448
+	rotate: 90
+Tri_lineA
+	bounds: 101, 959, 57, 57
+arrow
+	bounds: 362, 774, 54, 358
+	rotate: 90
+bankColum
+	bounds: 160, 902, 42, 114
+bankDock
+	bounds: 2, 811, 358, 43
+bankRoof
+	bounds: 2, 90, 335, 118
+center
+	bounds: 750, 782, 128, 112
+	rotate: 90
+chests_light/01
+	bounds: 201, 498, 208, 126
+	offsets: 25, 11, 256, 161
+chests_light/02
+	bounds: 519, 569, 203, 124
+	offsets: 23, 11, 256, 161
+	rotate: 90
+chests_light/03
+	bounds: 722, 656, 199, 124
+	offsets: 26, 11, 256, 161
+chests_light/04
+	bounds: 2, 532, 197, 129
+	offsets: 30, 11, 256, 161
+chests_light/05
+	bounds: 411, 434, 207, 133
+	offsets: 23, 9, 256, 161
+chests_light/06
+	bounds: 742, 253, 222, 139
+	offsets: 20, 7, 256, 161
+chests_light/07
+	bounds: 396, 291, 220, 141
+	offsets: 25, 7, 256, 161
+chests_light/08
+	bounds: 176, 361, 218, 135
+	offsets: 26, 10, 256, 161
+dust
+	bounds: 452, 145, 256, 144
+hammer
+	bounds: 620, 333, 169, 369
+	rotate: 90
+hammer_dock
+	bounds: 523, 830, 225, 45
+hammer_part
+	bounds: 2, 931, 40, 85
+ice_smoke
+	bounds: 710, 105, 258, 146
+line_fast
+	bounds: 2, 2, 744, 86
+	offsets: 28, 2, 800, 89
+star
+	bounds: 355, 856, 166, 58
+	offsets: 9, 1, 184, 60
+tail/01
+	bounds: 634, 877, 58, 139
+	offsets: 10, 55, 200, 200
+tail/02
+	bounds: 311, 871, 145, 42
+	offsets: 23, 152, 200, 200
+	rotate: 90
+tail/03
+	bounds: 42, 867, 90, 104
+	offsets: 109, 86, 200, 200
+	rotate: 90
+tail/04
+	bounds: 575, 877, 57, 139
+	offsets: 142, 5, 200, 200
+tail/05
+	bounds: 267, 872, 144, 42
+	offsets: 42, 4, 200, 200
+	rotate: 90
+tail/06
+	bounds: 786, 912, 87, 104
+	offsets: 10, 8, 200, 200
+textbox_color02
+	bounds: 355, 916, 100, 61
+	rotate: 90
+textbox_color03
+	bounds: 204, 934, 82, 61
+	rotate: 90
+
+MapEvent_fx_3.png
+	size: 982, 986
+	filter: Linear, Linear
+	pma: true
+Flare02
+	bounds: 472, 367, 617, 226
+	offsets: 7, 6, 624, 235
+	rotate: 90
+brust
+	bounds: 2, 152, 402, 349
+	offsets: 37, 33, 481, 417
+cracked_ice
+	bounds: 2, 503, 469, 481
+frozen2
+	bounds: 700, 367, 498, 280
+	rotate: 90
+frozen3
+	bounds: 406, 85, 498, 280
+line_glow
+	bounds: 2, 2, 833, 81
+	offsets: 31, 5, 896, 92
+
+MapEvent_fx_4.png
+	size: 1004, 1016
+	filter: Linear, Linear
+	pma: true
+Afloor
+	bounds: 204, 2, 361, 155
+Chest/07
+	bounds: 204, 598, 188, 214
+	offsets: 10, 99, 223, 320
+Chest/08
+	bounds: 204, 378, 200, 218
+	offsets: 15, 38, 223, 320
+Chest/09
+	bounds: 406, 796, 202, 218
+	offsets: 14, 44, 223, 320
+Chest/10
+	bounds: 407, 344, 197, 227
+	offsets: 15, 38, 223, 320
+Chest/11
+	bounds: 406, 573, 200, 221
+	offsets: 15, 38, 223, 320
+Chest/12
+	bounds: 204, 159, 201, 217
+	offsets: 15, 38, 223, 320
+Dot_floor/02
+	bounds: 752, 758, 250, 256
+	offsets: 3, 0, 256, 256
+FastLine/01
+	bounds: 606, 171, 140, 400
+FastLine/02
+	bounds: 610, 614, 140, 400
+FastLine/03
+	bounds: 748, 212, 140, 400
+FastLine/04
+	bounds: 567, 29, 140, 400
+	rotate: 90
+R_light/01
+	bounds: 2, 814, 200, 200
+R_light/02
+	bounds: 2, 612, 200, 200
+R_light/03
+	bounds: 2, 410, 200, 200
+R_light/04
+	bounds: 2, 208, 200, 200
+R_light/05
+	bounds: 2, 6, 200, 200
+R_light/06
+	bounds: 204, 814, 200, 200
+
+MapEvent_fx_5.png
+	size: 926, 1006
+	filter: Linear, Linear
+	pma: true
+Dock
+	bounds: 2, 124, 632, 123
+Dot_floor/06
+	bounds: 502, 748, 256, 256
+Eboard/06
+	bounds: 784, 2, 140, 500
+Eboard/07
+	bounds: 784, 504, 140, 500
+Eboard/08
+	bounds: 642, 67, 140, 500
+Tri_lineB
+	bounds: 322, 249, 318, 318
+Tri_lineC
+	bounds: 2, 249, 318, 318
+Vintage
+	bounds: 2, 569, 720, 153
+	offsets: 0, 227, 720, 380
+frozen1
+	bounds: 2, 724, 498, 280
+
+MapEvent_fx_6.png
+	size: 941, 1006
+	filter: Linear, Linear
+	pma: true
+Dot_floor/01
+	bounds: 144, 490, 251, 256
+	offsets: 2, 0, 256, 256
+Dot_floor/03
+	bounds: 144, 748, 250, 256
+	offsets: 2, 0, 256, 256
+Dot_floor/04
+	bounds: 397, 748, 254, 256
+	offsets: 1, 0, 256, 256
+Dot_floor/05
+	bounds: 399, 233, 256, 256
+Dot_floor/07
+	bounds: 397, 491, 255, 256
+	offsets: 0, 0, 256, 256
+	rotate: 90
+Dot_floor/08
+	bounds: 144, 232, 253, 256
+	offsets: 1, 0, 256, 256
+Eboard/01
+	bounds: 799, 504, 140, 500
+Eboard/02
+	bounds: 657, 8, 140, 498
+	offsets: 0, 0, 140, 500
+Eboard/03
+	bounds: 144, 90, 140, 496
+	offsets: 0, 1, 140, 500
+	rotate: 90
+Eboard/04
+	bounds: 655, 508, 140, 496
+	offsets: 0, 1, 140, 500
+Eboard/05
+	bounds: 799, 2, 140, 500
+FastLine/05
+	bounds: 2, 604, 140, 400
+FastLine/06
+	bounds: 2, 202, 140, 400
