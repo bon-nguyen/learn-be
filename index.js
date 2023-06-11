@@ -3,10 +3,12 @@ dotenv.config();
 console.log(process.env);
 const express = require("express");
 const bodyParser = require("body-parser");
+// Routes
 const userRoutes = require("./routes/users.route");
 const loginRoutes = require("./routes/auth.route");
 const productRoutes = require("./routes/products.route");
 const cartRoutes = require('./routes/cart.route')
+const transferRoutes = require('./routes/transfer.route')
 
 const app = express();
 const cookieParser = require("cookie-parser");
@@ -29,6 +31,7 @@ app.use("/products", productRoutes);
 app.use("/users", authMiddleware.requireAuth, userRoutes);
 app.use("/auth", loginRoutes);
 app.use('/cart', cartRoutes)
+app.use('/transfer', transferRoutes)
 
 app.listen(3000, function () {
   console.log("Server listening sport 3000");

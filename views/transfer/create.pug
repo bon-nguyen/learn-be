@@ -1,0 +1,12 @@
+extends ../layouts/layout.pug
+
+block content 
+    h1 Transfer 
+    form(action='/transfer/create', method='POST')
+        .form-group
+            label(for='userId') UserId
+            input#name.form-control(type='text', name='userId', placeholder='UserId')
+        .form-group
+            label(for='amount') Amount
+            input#phone.form-control(type='text', name='amount', placeholder='Amount')
+        button.btn.btn-primary(type='submit') Submit
