@@ -9,7 +9,6 @@ const usersValidate = require("../validates/user.validate");
 
 // middleware
 
-console.log("db", db);
 routes.get("/", usersController.index);
 routes.get("/search", usersController.search);
 routes.get("/create", usersController.viewCreate);
