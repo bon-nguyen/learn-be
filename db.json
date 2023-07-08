@@ -18,30 +18,36 @@
     {
       "id": "l0ewNQWXJ",
       "email": "bon1@gmail.com",
-      "password": "81dc9bdb52d04dc20036dbd8313ed055"
+      "password": "upload/81dc9bdb52d04dc20036dbd8313ed055"
     },
     {
       "id": "HITTdAw1r",
       "email": "111",
-      "password": "698d51a19d8a121ce581499d7b701668"
+      "password": "upload/698d51a19d8a121ce581499d7b701668"
     },
     {
       "id": "Zul_xEMQw",
       "email": "test",
       "password": "41fcba09f2bdcdf315ba4119dc7978dd",
-      "image": "upload,b651ca340a4e3b87d7f1bd77385c447e"
+      "image": "upload/b651ca340a4e3b87d7f1bd77385c447e"
     },
     {
       "id": "aZJ-Vf-B9",
       "email": "111",
       "password": "698d51a19d8a121ce581499d7b701668",
-      "image": "upload,c46b94499785e40a0c26e155ef0dcbde"
+      "image": "upload/c46b94499785e40a0c26e155ef0dcbde"
     },
     {
       "id": "LMmi2_1sc",
       "email": "tranfff1@gmail.com",
       "password": "e10adc3949ba59abbe56e057f20f883e",
       "image": "upload/b742e725078b8cd5bb28f75fb239d53e"
+    },
+    {
+      "id": "dpiEal3SJ",
+      "email": "111@gmail.com",
+      "password": "bcbe3365e6ac95ea2c0343a2395834dd",
+      "image": "upload/0543add440b885dc217b1a43ed4fdbc4"
     }
   ],
   "products": [
@@ -644,6 +650,11 @@
       "name": "Raisin - Golden",
       "images": "https://picsum.photos/200/300",
       "description": "varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices"
+    }
+  ],
+  "sections": [
+    {
+      "id": "FJWcryW7f"
     }
   ]
 }
