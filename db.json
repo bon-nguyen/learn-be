@@ -652,13 +652,40 @@
       "description": "varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices"
     }
   ],
+<<<<<<< HEAD
   "sections": [
     {
       "id": "FJWcryW7f"
+=======
+  "sessions": [
+    {
+      "id": "ZWcloMxlQ",
+      "cart": {}
+    },
+    {
+      "id": "he_NAHUVP",
+      "cart": {}
+    },
+    {
+      "id": "JCHy2Zsu5",
+      "cart": {}
+    },
+    {
+      "id": "URidBQSjf",
+      "cart": {
+        "f3354e32-54fd-4772-a6a2-b7e4f0cdbc26": 2,
+        "90f358d7-60fb-4391-996e-fd3031bdbe36": 1
+      }
+    },
+    {
+      "id": "2jTBm3Dlj",
+      "cart": {}
+>>>>>>> a771af1718a719e8b61f68a9b392e88abb258817
     }
   ],
   "transfers": [
     {
+<<<<<<< HEAD
       "id": "7ysy2zbc9",
       "account": "bon",
       "amount": "nguyen"
@@ -672,6 +699,16 @@
       "id": "uxAiDIl_N7",
       "account": "hacker",
       "amount": "10000"
+=======
+      "id": "iwZNPQRs_",
+      "amount": 2111,
+      "userId": "user test"
+    },
+    {
+      "id": "fCCORKklln",
+      "amount": 10000000,
+      "userId": "hacker123"
+>>>>>>> a771af1718a719e8b61f68a9b392e88abb258817
     }
   ]
 }
